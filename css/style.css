@@ -1,0 +1,132 @@
+body {
+    font-family: 'Comfortaa';
+    background: #649bad;
+    margin: auto;
+    display: block;
+    max-width: 800px;
+}
+
+button {
+    font-family: 'Comfortaa', cursive;
+}
+
+.registration {
+    z-index: 1;
+	color: #f3efa8;
+	/* display: none; */
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	width: 600px;
+	height: 400px;
+	margin-left: -300px;
+	margin-top: -200px;
+	border: 3px solid #f3efa8; 
+	border-radius: 40px;
+	background-color: #f39595   ;
+}
+
+#reg {
+    z-index: 2;
+    display: none;
+}
+
+.registration > p{
+	text-align: center;
+}
+
+p input{
+	color: #f3efa8;
+	width: 140px;
+	background-color: transparent;
+	border: 1px solid #f3efa8; 
+	border-radius: 5px;
+	display: block;
+	float: right;
+}
+
+.registration form {
+	width: 250px;
+	display: block;
+	margin: auto;
+	margin-top: 85px;
+}
+
+.registration button {
+	color: #f3efa8;
+	background-color: transparent;
+	display: block;
+	padding: 10px;
+	border: 1px solid #f3efa8; 
+	border-radius: 5px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+
+
+.registration a {
+    display: block;
+    width: fit-content;
+    margin: auto;
+}
+
+
+#id{}
+
+form {
+    display: table;
+    width: 100%;
+    height: 100px;
+    background: #f39595;
+    ;
+}
+
+form div {
+    border-top: 2px solid black;
+    width: 100%;
+    display: table-cell;
+    height: fit-content;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.name {
+    display: inline-block;
+    width: 50%;
+}
+
+
+.actions {
+    display: inline-block;
+    width: 49%;
+}
+
+.edit {
+    display: inline-block;
+    width: 30%;
+}
+
+.delete {
+    display: inline-block;
+    width: 30%;
+}
+
+.download {
+    display: inline-block;
+    width: 30%;
+}
+
+#answer{
+    position: relative;
+}
+
+#back {
+    color: black;
+    height: fit-content;
+    padding-bottom: 3px;
+}
+
+#back button {
+    float: left;
+}
